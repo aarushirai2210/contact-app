@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { getAllContact } from "../../../../redux/actions/dataAction";
+import { getAllContact } from "../redux/actions/dataAction";
 function ContactList(props) {
   useEffect(() =>{props.getAllContact();
   }, []);
